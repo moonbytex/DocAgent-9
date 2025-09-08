@@ -1,0 +1,29 @@
+llm:
+  type: "aliyun"
+  api_key: "sk-6354cec743c0434fb34bd49e4c1a515d"
+  model: "qwen2.5-coder-32b-instruct"
+  temperature: 0.2
+  max_output_tokens: 4096
+  max_input_tokens: 100000
+
+rate_limits:
+  aliyun:
+    requests_per_minute: 1000
+    input_tokens_per_minute: 20000
+    output_tokens_per_minute: 20000
+    input_token_price_per_million: 0
+    output_token_price_per_million: 0
+
+flow_control:
+  max_reader_search_attempts: 2  # Maximum times reader can call searcher
+  max_verifier_rejections: 1     # Maximum times verifier can reject a docstring
+  status_sleep_time: 1           # Time to sleep between status updates (seconds)
+
+docstring_options:
+  overwrite_docstrings: false  # Whether to overwrite existing docstrings (default: false)
+
+perplexity:
+  api_key: "your-perplexity-api-key-here"  # Replace with your actual Perplexity API key
+  model: "sonar"  # Default model
+  temperature: 0.1
+  max_output_tokens: 250 

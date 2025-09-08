@@ -1,0 +1,1 @@
+python generate_docstrings.py --repo-path data/gnebehay___parser --config-path config/agent_config.yaml

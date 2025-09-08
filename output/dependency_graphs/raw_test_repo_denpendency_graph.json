@@ -1,0 +1,455 @@
+{
+  "example.main": {
+    "id": "example.main",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/example.py",
+    "relative_path": "example.py",
+    "depends_on": [
+      "example.timedelta",
+      "vending_machine.Sys",
+      "example.pos",
+      "example.e",
+      "example.item",
+      "example.datetime",
+      "example.i",
+      "example.Decimal",
+      "models.product.Item",
+      "example.ret",
+      "vending_machine.SysErr"
+    ],
+    "start_line": 7,
+    "end_line": 33,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.SysErr": {
+    "id": "vending_machine.SysErr",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [],
+    "start_line": 8,
+    "end_line": 9,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys": {
+    "id": "vending_machine.Sys",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "vending_machine.Sys.add_money",
+      "vending_machine.h",
+      "vending_machine.x",
+      "payment.payment_processor.Handler",
+      "models.product.Item",
+      "vending_machine.amt",
+      "vending_machine.Tuple",
+      "payment.payment_processor.TxStatus",
+      "vending_machine.List",
+      "vending_machine.Sys.ls",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx",
+      "vending_machine.Sys.buy",
+      "vending_machine.SysErr",
+      "vending_machine.Decimal",
+      "inventory.inventory_manager.Store",
+      "vending_machine.Sys.pick",
+      "vending_machine.item",
+      "vending_machine.Sys.cancel"
+    ],
+    "start_line": 12,
+    "end_line": 64,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys.__init__": {
+    "id": "vending_machine.Sys.__init__",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store",
+      "payment.payment_processor.Handler",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 14,
+    "end_line": 17,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys.ls": {
+    "id": "vending_machine.Sys.ls",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store",
+      "payment.payment_processor.Handler",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 19,
+    "end_line": 25,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys.pick": {
+    "id": "vending_machine.Sys.pick",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store",
+      "payment.payment_processor.Handler",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 27,
+    "end_line": 33,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys.add_money": {
+    "id": "vending_machine.Sys.add_money",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store",
+      "payment.payment_processor.Handler",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 35,
+    "end_line": 38,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys.buy": {
+    "id": "vending_machine.Sys.buy",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store",
+      "payment.payment_processor.Handler",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 40,
+    "end_line": 52,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "vending_machine.Sys.cancel": {
+    "id": "vending_machine.Sys.cancel",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/vending_machine.py",
+    "relative_path": "vending_machine.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store",
+      "payment.payment_processor.Handler",
+      "vending_machine.Optional",
+      "payment.payment_processor.Cash",
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 54,
+    "end_line": 64,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.TxStatus": {
+    "id": "payment.payment_processor.TxStatus",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [],
+    "start_line": 8,
+    "end_line": 12,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Tx": {
+    "id": "payment.payment_processor.Tx",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [
+      "payment.payment_processor.TxStatus"
+    ],
+    "start_line": 16,
+    "end_line": 21,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Handler": {
+    "id": "payment.payment_processor.Handler",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [
+      "payment.payment_processor.Tx",
+      "payment.payment_processor.Handler.proc",
+      "payment.payment_processor.Handler.rev"
+    ],
+    "start_line": 24,
+    "end_line": 32,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Handler.proc": {
+    "id": "payment.payment_processor.Handler.proc",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 27,
+    "end_line": 28,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Handler.rev": {
+    "id": "payment.payment_processor.Handler.rev",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [
+      "payment.payment_processor.Tx"
+    ],
+    "start_line": 31,
+    "end_line": 32,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Cash": {
+    "id": "payment.payment_processor.Cash",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [
+      "payment.payment_processor.TxStatus",
+      "payment.payment_processor.Handler",
+      "payment.payment_processor.Cash.add",
+      "payment.payment_processor.Cash.ret",
+      "payment.payment_processor.Tx",
+      "payment.payment_processor.Cash.proc",
+      "payment.payment_processor.Cash.rev"
+    ],
+    "start_line": 35,
+    "end_line": 61,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Cash.__init__": {
+    "id": "payment.payment_processor.Cash.__init__",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [],
+    "start_line": 37,
+    "end_line": 38,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Cash.add": {
+    "id": "payment.payment_processor.Cash.add",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [],
+    "start_line": 40,
+    "end_line": 41,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Cash.proc": {
+    "id": "payment.payment_processor.Cash.proc",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [],
+    "start_line": 43,
+    "end_line": 49,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Cash.rev": {
+    "id": "payment.payment_processor.Cash.rev",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [],
+    "start_line": 51,
+    "end_line": 56,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "payment.payment_processor.Cash.ret": {
+    "id": "payment.payment_processor.Cash.ret",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/payment/payment_processor.py",
+    "relative_path": "payment/payment_processor.py",
+    "depends_on": [],
+    "start_line": 58,
+    "end_line": 61,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "models.product.Item": {
+    "id": "models.product.Item",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/models/product.py",
+    "relative_path": "models/product.py",
+    "depends_on": [
+      "models.product.Item.check",
+      "models.product.Item.mod"
+    ],
+    "start_line": 7,
+    "end_line": 26,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "models.product.Item.check": {
+    "id": "models.product.Item.check",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/models/product.py",
+    "relative_path": "models/product.py",
+    "depends_on": [],
+    "start_line": 15,
+    "end_line": 20,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "models.product.Item.mod": {
+    "id": "models.product.Item.mod",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/models/product.py",
+    "relative_path": "models/product.py",
+    "depends_on": [],
+    "start_line": 22,
+    "end_line": 26,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store": {
+    "id": "inventory.inventory_manager.Store",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "inventory.inventory_manager.Store.put",
+      "inventory.inventory_manager.Store.get_at",
+      "inventory.inventory_manager.Store.ls",
+      "inventory.inventory_manager.Store.find",
+      "models.product.Item",
+      "inventory.inventory_manager.Store.get",
+      "inventory.inventory_manager.Store.rm"
+    ],
+    "start_line": 5,
+    "end_line": 58,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.__init__": {
+    "id": "inventory.inventory_manager.Store.__init__",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 7,
+    "end_line": 10,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.put": {
+    "id": "inventory.inventory_manager.Store.put",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 12,
+    "end_line": 31,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.rm": {
+    "id": "inventory.inventory_manager.Store.rm",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 33,
+    "end_line": 40,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.get": {
+    "id": "inventory.inventory_manager.Store.get",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 42,
+    "end_line": 43,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.get_at": {
+    "id": "inventory.inventory_manager.Store.get_at",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 45,
+    "end_line": 49,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.ls": {
+    "id": "inventory.inventory_manager.Store.ls",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 51,
+    "end_line": 52,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "inventory.inventory_manager.Store.find": {
+    "id": "inventory.inventory_manager.Store.find",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/raw_test_repo/inventory/inventory_manager.py",
+    "relative_path": "inventory/inventory_manager.py",
+    "depends_on": [
+      "models.product.Item"
+    ],
+    "start_line": 54,
+    "end_line": 58,
+    "has_docstring": false,
+    "docstring": ""
+  }
+}

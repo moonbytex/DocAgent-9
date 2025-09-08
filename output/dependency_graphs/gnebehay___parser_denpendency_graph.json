@@ -1,0 +1,184 @@
+{
+  "compute.compute": {
+    "id": "compute.compute",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/compute.py",
+    "relative_path": "compute.py",
+    "depends_on": [
+      "parser.TokenType",
+      "compute.compute",
+      "compute.parser",
+      "compute.operations"
+    ],
+    "start_line": 14,
+    "end_line": 20,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "graphviz.label": {
+    "id": "graphviz.label",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/graphviz.py",
+    "relative_path": "graphviz.py",
+    "depends_on": [
+      "graphviz.label",
+      "graphviz.node_counter",
+      "graphviz.child"
+    ],
+    "start_line": 7,
+    "end_line": 13,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "graphviz.to_graphviz": {
+    "id": "graphviz.to_graphviz",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/graphviz.py",
+    "relative_path": "graphviz.py",
+    "depends_on": [
+      "graphviz._to_graphviz"
+    ],
+    "start_line": 16,
+    "end_line": 22,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "graphviz._to_graphviz": {
+    "id": "graphviz._to_graphviz",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/graphviz.py",
+    "relative_path": "graphviz.py",
+    "depends_on": [
+      "graphviz._to_graphviz",
+      "graphviz.child"
+    ],
+    "start_line": 25,
+    "end_line": 30,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.TokenType": {
+    "id": "parser.TokenType",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.enum"
+    ],
+    "start_line": 5,
+    "end_line": 13,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.Node": {
+    "id": "parser.Node",
+    "component_type": "class",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.value",
+      "parser.token_type"
+    ],
+    "start_line": 16,
+    "end_line": 20,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.Node.__init__": {
+    "id": "parser.Node.__init__",
+    "component_type": "method",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [],
+    "start_line": 17,
+    "end_line": 20,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.lexical_analysis": {
+    "id": "parser.lexical_analysis",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.TokenType",
+      "parser.Node",
+      "parser.re",
+      "parser.c"
+    ],
+    "start_line": 23,
+    "end_line": 43,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.match": {
+    "id": "parser.match",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [],
+    "start_line": 46,
+    "end_line": 50,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.parse_e": {
+    "id": "parser.parse_e",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.parse_e2",
+      "parser.TokenType"
+    ],
+    "start_line": 53,
+    "end_line": 62,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.parse_e2": {
+    "id": "parser.parse_e2",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.TokenType",
+      "parser.parse_e3"
+    ],
+    "start_line": 65,
+    "end_line": 74,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.parse_e3": {
+    "id": "parser.parse_e3",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.TokenType",
+      "parser.parse_e",
+      "parser.match"
+    ],
+    "start_line": 77,
+    "end_line": 85,
+    "has_docstring": false,
+    "docstring": ""
+  },
+  "parser.parse": {
+    "id": "parser.parse",
+    "component_type": "function",
+    "file_path": "/data8/huangjinpeng/DocAgent-9/data/gnebehay___parser/parser.py",
+    "relative_path": "parser.py",
+    "depends_on": [
+      "parser.lexical_analysis",
+      "parser.parse_e",
+      "parser.match",
+      "parser.TokenType"
+    ],
+    "start_line": 88,
+    "end_line": 92,
+    "has_docstring": false,
+    "docstring": ""
+  }
+}
