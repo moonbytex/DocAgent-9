@@ -1,4 +1,3 @@
-```markdown
 # DocAgent-9
 
 **DocAgent-9** 是一个基于 **多智能体系统（Multi-Agent System）** 的自动化工具，旨在为 **Python 代码仓库** 自动生成 **标准化代码注释**（如函数、类、方法的 docstring）。  
@@ -75,4 +74,3 @@ Searcher 将收集到的信息返回给 Reader，并支持多轮交互。
 未来将支持自适应上下文裁剪，以应对大型项目。
 
 ---
-```
