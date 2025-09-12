@@ -373,7 +373,7 @@ class DependencyParser:
                 import_collector = ImportCollector()
                 import_collector.visit(tree)
 
-                comonent_node = None
+                component_node = None
                 module_path = self._file_to_module_path(component.relative_path)
 
                 # 其实可以直接使用component中存的node
@@ -382,6 +382,7 @@ class DependencyParser:
                         if (isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef))
                             and node.name == component.id.split('.')[-1]):
                             component_node = node
+                            break
 
                 elif component.component_type == 'class':
                     for node in ast.iter_child_nodes(tree):
@@ -401,7 +402,7 @@ class DependencyParser:
                                     component_node = item
                                     break
 
-                                break
+                            break
                 
                 # 收集这个组件的依赖
                 if component_node:
